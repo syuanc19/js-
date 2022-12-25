@@ -47,7 +47,7 @@ while ( num <= 100) {
     if ( num % 7 === 0) {
         result = num
         document.write(result+',')
-        }
+    }
 num++
 }
 ```
