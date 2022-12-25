@@ -25,3 +25,16 @@ while (asset < 5000) {
 }
 alert(`一共需要存${year}年，所有存款为${asset}元`)
 ```
+***
+# 2.求1-100之间所有的偶数的和
+```js
+let num = 1;
+let sum = 0;
+while (num <= 100) {
+    if (num % 2 === 0) {
+        sum = sum + num
+    }
+num++
+}
+alert(`1~100所有偶数的和是${sum}`)
+```
