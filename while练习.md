@@ -38,3 +38,16 @@ num++
 }
 alert(`1~100所有偶数的和是${sum}`)
 ```
+***
+# 3.求1-100之间能被7整除的数字
+```js
+let num = 1;
+let result = 0;
+while ( num <= 100) {
+    if ( num % 7 === 0) {
+        result = num
+        document.write(result+',')
+        }
+num++
+}
+```
