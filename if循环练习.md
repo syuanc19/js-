@@ -9,3 +9,12 @@ for (i = 100; i <= 999; i++) {
     }
 }
 ```
+## 索引写法
+```js
+        for (i = 100; i <= 999; i++) {
+            let strI = i + ''
+            if (strI[0] ** 3 + strI[1] ** 3 + strI[2] ** 3 === i) {
+                console.log(i)
+            }
+        }
+```
