@@ -18,3 +18,18 @@ for (i = 100; i <= 999; i++) {
             }
         }
 ```
+#2. 获取用户输入的大于1的整数(不考虑输错)，检查该数字是否为质数，并打印结果
+```js
+        let result = +prompt('请输入大于1的整数');
+        let count = true;
+        for (i = 2; i < result; i++) {
+            if (result % i === 0) {
+                count = false
+            }
+        }
+        if (count === true) {
+            alert(`${result}是质数`)
+        } else if (count === false) {
+            alert(`${result}不是质数`)
+        }
+```
